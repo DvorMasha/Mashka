@@ -57,9 +57,41 @@
 	
 	
 	
-<!-- Виджет погоды: -->	
-<link rel="stylesheet" type="text/css" href="CSS/weather.css" />
+<!-- Виджет Часов: -->	
+<div class="clock">
+	<link rel="stylesheet" type="text/css" href="CSS/watch.css" />
+  <div class="hours">
+    <div class="first">
+      <div class="number">0</div>
+    </div>
+    <div class="second">
+      <div class="number">0</div>
+    </div>
+  </div>
+  <div class="tick">:</div>
+  <div class="minutes">
+    <div class="first">
+      <div class="number">0</div>
+    </div>
+    <div class="second">
+      <div class="number">0</div>
+    </div>
+  </div>
+  <div class="tick">:</div>
+  <div class="seconds">
+    <div class="first">
+      <div class="number">0</div>
+    </div>
+    <div class="second infinite">
+      <div class="number">0</div>
+    </div>
+  </div>
+</div>	
+<!-- Виджет погоды: -->		
+	
+	
 <div id="weather_wrapper">
+	<link rel="stylesheet" type="text/css" href="CSS/weather.css" />
 	<div class="weatherCard">
 		<div class="currentTemp">
 			<span class="temp">23&deg;</span>
@@ -74,8 +106,6 @@
 		</div>
 	</div>
 </div>	
-<!-- Виджет погоды: -->	
-<iframe width="650" height="450" src="https://embed.windy.com/embed2.html?lat=54.674&lon=83.095&detailLat=55.739&detailLon=37.607&width=650&height=450&zoom=9&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=true&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=m%2Fs&metricTemp=%C2%B0C&radarRange=-1" frameborder="0"></iframe>
 <!-- Виджет погоды. Конец -->		
 	
 	
