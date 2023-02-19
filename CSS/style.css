@@ -72,13 +72,14 @@ canvas{background:#111}
 }
 
 /* Часы:*/
-/*
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*
 html, body {
   height: 100%;
   width: 100%;
@@ -99,7 +100,7 @@ body {
   font-family: sans-serif;
   line-height: 20.4vh;
   display: flex;
-  position: absolute; /*relative*/;
+  position: relative;
   /*background: green;*/
   overflow: hidden;
 }
