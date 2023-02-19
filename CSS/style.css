@@ -14,7 +14,6 @@ body
   font-weight:300;
   line-height:28px;
   font-size:24px
-     box-sizing: border-box; /*для чвсов*/
  } 
 
 canvas{background:#111}
@@ -100,7 +99,7 @@ body {
   font-family: sans-serif;
   line-height: 20.4vh;
   display: flex;
-  position: relative;
+  position: absolute; /*relative*/;
   /*background: green;*/
   overflow: hidden;
 }
