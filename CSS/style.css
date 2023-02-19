@@ -18,7 +18,7 @@ body
   margin:0 auto;
   text-align:center;
   width:100%;
-  font-family:"Marck Script";
+  font-family:"Amatic SC";
   color:#fff;
   font-weight:300;
   line-height:28px;
@@ -52,7 +52,7 @@ canvas{background:#111}
 
 .big + p
 {
-  font-family:'Marck Script',cursive;
+  font-family:'Amatic SC',cursive;
   font-size:35px
 }
 
@@ -75,7 +75,7 @@ canvas{background:#111}
   
  .big + p
   {
-   font-family:'Marck Script',cursive;
+   font-family:'Amatic SC',cursive;
     font-size:25px
   }
 }
