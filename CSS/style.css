@@ -14,12 +14,7 @@ body
   font-weight:300;
   line-height:28px;
   font-size:24px
-    /* Для часов: */
-  background: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-   /* Для часов. Конец */
+     box-sizing: border-box; /*для чвсов*/
  } 
 
 canvas{background:#111}
