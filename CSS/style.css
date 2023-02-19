@@ -1,5 +1,5 @@
-/*@import "https://fonts.googleapis.com/css?family=Marck Script"; */
-@import"https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">;
+@import "https://fonts.googleapis.com/css?family=Marck Script"; */
+/*@import"https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">; */
 @font-face
 {
   font-family:"Marck Script";
@@ -19,7 +19,7 @@ body
   margin:0 auto;
   text-align:center;
   width:100%;
-  font-family:"Amatic SC";
+  font-family:"Marck Script";
   color:#fff;
   font-weight:300;
   line-height:28px;
@@ -53,7 +53,7 @@ canvas{background:#111}
 
 .big + p
 {
-  font-family:'Amatic SC',cursive;
+  font-family:'Marck Script',cursive;
   font-size:35px
 }
 
@@ -76,7 +76,7 @@ canvas{background:#111}
   
  .big + p
   {
-   font-family:'Amatic SC',cursive;
+   font-family:'Marck Script',cursive;
     font-size:25px
   }
 }
