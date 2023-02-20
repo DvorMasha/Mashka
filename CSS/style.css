@@ -39,7 +39,7 @@ canvas{background:#111}
 */
 #wrapper
 {
-  padding:0;
+  padding:300px;
   height:100%;
   display:flex
 }
