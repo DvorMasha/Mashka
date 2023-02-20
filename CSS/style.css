@@ -120,14 +120,14 @@ body {
   content: '';
   width: 7ch;
   height: 3vh;
-  background: linear-gradient(to top, transparent, black);
+  background: #0d0e11; /*linear-gradient(to top, transparent, black); */
   position: absolute;
   z-index: 2;
 }
 
 .clock::after {
   bottom: 0;
-  background: linear-gradient(to bottom, transparent, black);
+  background: #0d0e11; /* linear-gradient(to bottom, transparent, black); */
 }
 
 .clock > div {
