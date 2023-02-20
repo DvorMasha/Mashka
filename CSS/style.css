@@ -29,20 +29,13 @@ body
  } 
 
 canvas{background:#111}
-/*
 #wrapper
 {
   padding:0 15px;
   height:100%;
   display:flex
 }
-*/
-#wrapper
-{
-  padding:300px;
-  height:100%;
-  display:flex
-}
+
 .content
 {
   align-self:center;
