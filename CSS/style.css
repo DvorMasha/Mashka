@@ -24,8 +24,8 @@ body
   font-weight:300;
   line-height:28px;
   font-size:44px
-  justify-content: center;  /*из-за неё многое сбивается*/
-  align-items: center; /*из-за неё многое сбивается*/
+  /*justify-content: center;  /*из-за неё многое сбивается*/
+  /*align-items: center; /*из-за неё многое сбивается*/
  } 
 
 canvas{background:#111}
