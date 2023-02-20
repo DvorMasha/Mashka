@@ -23,7 +23,7 @@ body
   color:#fff;
   font-weight:300;
   line-height:28px;
-  font-size:44px
+  font-size:24px
   /*justify-content: center;  /*из-за неё многое сбивается*/
   /*align-items: center; /*из-за неё многое сбивается*/
  } 
@@ -45,8 +45,8 @@ canvas{background:#111}
 .big
 {
   font-family:"Marck Script";
-  font-size:180px;	
-  line-height:160px;
+  font-size:80px;	
+  line-height:100px;
   margin-bottom:43px;
   padding-bottom:25px;
   border-bottom:1px dashed #fff
@@ -55,7 +55,7 @@ canvas{background:#111}
 .big + p
 {
   font-family:'Marck Script',cursive;
-  font-size:155px
+  font-size:55px
 }
 
 @media (max-width: 1050px)
@@ -71,7 +71,7 @@ canvas{background:#111}
 @media (max-width: 544px)
 {
   .big{
-    font-size:160px;
+    font-size:60px;
     margin-bottom:30px;
     padding-bottom:20px
   }
@@ -79,7 +79,7 @@ canvas{background:#111}
  .big + p
   {
    font-family:'Marck Script',cursive;
-    font-size:145px
+    font-size:45px
   }
 }
 
