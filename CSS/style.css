@@ -28,7 +28,7 @@ body
   color:#fff;
   font-weight:300;
   line-height:28px;
-  font-size:19px
+  font-size:19px;
       justify-content: center;  /*Делает часы по центру!*/
       align-items: center; /*из-за неё многое сбивается*/
  } 
@@ -119,7 +119,7 @@ body {
   font-family: 'Shantell Sans', cursive; /*sans-serif; */
   line-height: 20.4vh;
   display: flex;
-  position: static; /*relative; */
+  position: relative;
   /*background: green;*/
   overflow: hidden;
 }
