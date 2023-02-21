@@ -121,9 +121,8 @@ body {
   position: relative;
   /*background: green;*/
   overflow: hidden;
-        /*justify-content: center;  /* Сам добавил!*/
-      align-items: center /* Сам добавил*/
-        
+        justify-content: center;  /* Сам добавил! Без неё часы улетают влево*/
+      /*align-items: center /* Сам добавил*/   
 }
 
 .clock::before, .clock::after {
