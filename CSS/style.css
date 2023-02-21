@@ -28,8 +28,8 @@ body
   font-weight:300;
   line-height:28px;
   font-size:19px;
-      justify-content: center;  /*Делает часы по центру!*/
-      align-items: center /*из-за неё многое сбивается*/
+      /*justify-content: center;  /*Делает часы по центру!*/
+      /*align-items: center /*из-за неё многое сбивается*/
  } 
 
 canvas{background:#111}
