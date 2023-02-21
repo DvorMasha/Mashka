@@ -167,14 +167,15 @@ body {
 
 
    /*Кнопка. Начало:*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:900')
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:900')
 $letters: 6
+*/
 
 /*body
   background: #111
   */
 a
-  font-family: 'Roboto', sans-serif
+  font-family: 'Shantell Sans', cursive /*'Roboto', sans-serif*/
   font-weight: 900
   color: black
   text-decoration: none
