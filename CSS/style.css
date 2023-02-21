@@ -121,6 +121,8 @@ body {
   position: relative;
   /*background: green;*/
   overflow: hidden;
+  justify-content: center;  /*из-за неё многое сбивается*/
+  align-items: center; /*из-за неё многое сбивается*/
 }
 
 .clock::before, .clock::after {
