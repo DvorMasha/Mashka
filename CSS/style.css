@@ -14,7 +14,6 @@
   padding:0;
   margin:0;
   box-sizing: border-box /* для часов*/
-    
 }
 
 body, html{height:100%}
@@ -30,7 +29,7 @@ body
   line-height:28px;
   font-size:19px;
       justify-content: center;  /*Делает часы по центру!*/
-      align-items: center; /*из-за неё многое сбивается*/
+      align-items: center /*из-за неё многое сбивается*/
  } 
 
 canvas{background:#111}
@@ -122,6 +121,9 @@ body {
   position: relative;
   /*background: green;*/
   overflow: hidden;
+        justify-content: center;  /* Сам добавил!*/
+      align-items: center /* Сам добавил*/
+        
 }
 
 .clock::before, .clock::after {
