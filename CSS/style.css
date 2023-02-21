@@ -1,9 +1,11 @@
-@import "https://fonts.googleapis.com/css?family=Indie+Flower"; */
+/*@import "https://fonts.googleapis.com/css?family=Indie+Flower"; */
 /*@import"https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">; */
+@import "https://allfont.net/allfont.css?fonts=broadway-cyrillic"; */
 @font-face
 {
-  font-family:"Broadway";
-  src:url(../FONT/BROADWAY.ttf)
+  font-family:"Broadway Cyrillic";
+  /*src:url(../FONT/BROADWAY.ttf)*/
+  src:url(../FONT/broadway-cyrillic.ttf)
 }
 
 *{
@@ -44,7 +46,7 @@ canvas{background:#111}
 
 .big /*МАШША*/
 {
-  font-family:"Broadway";
+  font-family:"Broadway Cyrillic";
   font-size:60px;	
   line-height:60px;
   margin-bottom:43px;
@@ -55,7 +57,7 @@ canvas{background:#111}
 .big + p
 {
   /*font-family:'Indie Flower',cursive;*/
-  font-family:"Broadway"; /*пробую*/
+  font-family:"Broadway Cyrillic"; /*пробую*/
   font-size:35px
 }
 
@@ -79,7 +81,8 @@ canvas{background:#111}
   
  .big + p
   {
-   font-family:'Indie Flower',cursive;
+   /*font-family:'Indie Flower',cursive;*/
+    font-family:"Broadway Cyrillic"; /*пробую*/
     font-size:25px
   }
 }
