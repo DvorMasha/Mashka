@@ -13,7 +13,8 @@
 *{
   padding:0;
   margin:0;
-  /*box-sizing: border-box*/
+  box-sizing: border-box /* для часов*/
+    
 }
 
 body, html{height:100%}
@@ -28,8 +29,8 @@ body
   font-weight:300;
   line-height:28px;
   font-size:19px
-  /*justify-content: center;  /*из-за неё многое сбивается*/
-  /*align-items: center; /*из-за неё многое сбивается*/
+      justify-content: center;  /*Делает часы по центру!*/
+      align-items: center; /*из-за неё многое сбивается*/
  } 
 
 canvas{background:#111}
@@ -121,8 +122,6 @@ body {
   position: relative;
   /*background: green;*/
   overflow: hidden;
-  justify-content: center;  /*из-за неё многое сбивается*/
-  align-items: center; /*из-за неё многое сбивается*/
 }
 
 .clock::before, .clock::after {
