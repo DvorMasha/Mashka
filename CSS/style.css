@@ -42,10 +42,9 @@ canvas{background:#111}
   margin:0 auto
 }
 
-.big /*МАШША/*
+.big /*МАШША*/
 {
-  /*font-family:"Broadway";*/
-  font-family:'Indie Flower';
+  font-family:"Broadway";
   font-size:60px;	
   line-height:60px;
   margin-bottom:43px;
@@ -55,7 +54,8 @@ canvas{background:#111}
 
 .big + p
 {
-  font-family:'Indie Flower',cursive;
+  /*font-family:'Indie Flower',cursive;*/
+  font-family:"Broadway"; /*пробую*/
   font-size:35px
 }
 
